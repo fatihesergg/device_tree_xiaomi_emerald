@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_emerald.mk 
+    $(LOCAL_DIR)/rising_emerald.mk 
 
 COMMON_LUNCH_CHOICES := \
-    infinity_emerald-user \
-    infinity_emerald-userdebug \
-    infinity_emerald-eng 
+    rising_emerald-user \
+    rising_emerald-userdebug \
+    rising_emerald-eng 
