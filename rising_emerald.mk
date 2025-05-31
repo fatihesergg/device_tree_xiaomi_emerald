@@ -17,7 +17,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := emerald
-PRODUCT_NAME := Infinity-X_emerald
+PRODUCT_NAME := Rising_emerald
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 2312FPCA6G
 TARGET_USES_PICO_GAPPS := true
