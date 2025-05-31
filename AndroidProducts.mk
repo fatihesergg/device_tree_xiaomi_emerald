@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rising_emerald.mk 
+    $(LOCAL_DIR)/lineage_emerald.mk 
 
 COMMON_LUNCH_CHOICES := \
-    rising_emerald-user \
-    rising_emerald-userdebug \
-    rising_emerald-eng 
+    lineage_emerald-user \
+    lineage_emerald-userdebug \
+    lineage_emerald-eng 
