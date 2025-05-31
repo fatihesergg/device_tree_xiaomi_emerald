@@ -23,14 +23,16 @@ PRODUCT_MODEL := 2312FPCA6G
 TARGET_USES_PICO_GAPPS := true
 WITH_GAPPS := true
 PRODUCT_MANUFACTURER := Xiaomi
+RISING_MAINTAINER="@androidme77"
 
 BUILD_FINGERPRINT :=POCO/emerald_p_id/emerald:14/UP1A.231005.007/V816.0.6.0.UNFIDXM:user/release-keys
 PRIVATE_BUILD_DESC="emerald_p_id-user 14 UP1A.231005.007 V816.0.6.0.UNFIDXM release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
        DeviceProduct=emerald \
-       INFINITY_MAINTAINER := "@Androidme77"
-       
+       RisingChipset="Mediatek Helio G99 Ultra" \
+       RisingMaintainer="Androidm77"
+
        
 PRODUCT_NO_CAMERA := false
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
