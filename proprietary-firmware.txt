@@ -1,4 +1,4 @@
-# Firmware from V816.0.6.0.ULUMIXM
+# Firmware from V816.0.6.0.UNFIDXM
 dpm.img;AB
 gz.img;AB
 lk.img;AB
