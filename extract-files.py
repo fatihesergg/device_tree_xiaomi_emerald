@@ -13,6 +13,14 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+     'device/xiaomi/emerald',
+     'hardware/mediatek',
+     'hardware/xiaomi',
+     'hardware/mediatek/libmtkperf_client',
+     'vendor/xiaomi/emerald'
+ ]
+
 blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libsink.so': blob_fixup()
         .add_needed('libshim_sink.so'),
