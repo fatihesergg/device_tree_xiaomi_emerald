@@ -8,6 +8,10 @@ from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
 )
+from extract_utils.fixups_lib import (Add commentMore actions
+     lib_fixups,
+     lib_fixups_user_type,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
@@ -20,6 +24,15 @@ namespace_imports = [
      'hardware/mediatek/libmtkperf_client',
      'vendor/xiaomi/emerald'
  ]
+
+def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):Add commentMore actions
+     return f'{lib}_{partition}' if partition == 'vendor' else None
+
+
+ lib_fixups: lib_fixups_user_type = {
+     **lib_fixups,
+     ('vendor.mediatek.hardware.videotelephony@1.0',): lib_fixup_vendor_suffix,
+ }
 
 blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libsink.so': blob_fixup()
@@ -59,7 +72,8 @@ module = ExtractUtilsModule(
     'emerald',
     'xiaomi',
     blob_fixups=blob_fixups,
-    namespace_imports=namespace_imports
+    namespace_imports=namespace_imports,
+    lib_fixups=lib_fixups
 )
 
 if __name__ == '__main__':
