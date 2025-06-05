@@ -59,6 +59,7 @@ module = ExtractUtilsModule(
     'emerald',
     'xiaomi',
     blob_fixups=blob_fixups,
+    namespace_imports=namespace_imports
 )
 
 if __name__ == '__main__':
