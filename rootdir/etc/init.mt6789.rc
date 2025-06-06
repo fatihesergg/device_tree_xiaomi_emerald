@@ -1068,6 +1068,7 @@ service loghidlsysservice /system/bin/loghidlsysservice
 # N6 code for HQ-304423 by p-wumingzhu1 at 2023/07/31 start
 service charger /system/bin/charger
     class charger
+    user root
     critical
     #seclabel u:r:charger:s0
     group system graphics
