@@ -72,6 +72,7 @@ module = ExtractUtilsModule(
     'emerald',
     'xiaomi',
     blob_fixups=blob_fixups,
+    check_elf=true,
     namespace_imports=namespace_imports,
     lib_fixups=lib_fixups
 )
