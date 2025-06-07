@@ -985,6 +985,7 @@ on property:vold.decrypt=trigger_shutdown_framework
 service bugreport /system/bin/dumpstate -d -p -B -z \
         -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
     class late_start
+    user root
     disabled
     oneshot
     keycodes 114 115 116
