@@ -1577,7 +1577,6 @@ vendor/lib64/libmtkperf_client_vendor.so
 
 # Radio
 vendor/bin/hw/mtkfusionrild
-vendor/bin/atcid
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/gsm0710muxd
@@ -1599,7 +1598,6 @@ vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
-vendor/etc/init/atcid.rc
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
