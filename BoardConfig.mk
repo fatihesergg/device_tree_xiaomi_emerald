@@ -241,3 +241,6 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # add suport recovery
 BOARD_PREBUILT_BOOTIMAGE := $(DEVICE_PATH)/prebuilts/boot.img
+
+# SurfaceFlingerAdd commentMore actions
+TARGET_USE_AOSP_SURFACEFLINGER := true
