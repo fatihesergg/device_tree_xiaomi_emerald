@@ -94,7 +94,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">Add commentMore actions
+    <hal format="aidl" optional="true">
         <name>android.hardware.ir</name>
         <version>1</version>
         <interface>
@@ -102,7 +102,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">Add commentMore actions
+    <hal format="aidl" optional="true">
     <name>android.hardware.sensors</name>
     <version>2</version>
     <interface>
