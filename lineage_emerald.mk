@@ -20,8 +20,6 @@ PRODUCT_DEVICE := emerald
 PRODUCT_NAME := lineage_emerald
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := 2312FPCA6G
-TARGET_USES_PICO_GAPPS := true
-WITH_GMS := true
 PRODUCT_MANUFACTURER := Xiaomi
 
 BUILD_FINGERPRINT :=POCO/emerald_p_id/emerald:14/UP1A.231005.007/V816.0.6.0.UNFIDXM:user/release-keys
@@ -39,3 +37,6 @@ TARGET_ENABLE_BLUR := false
        
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_HAS_UDFPS := true
+
+# Disable Eppe
+TARGET_DISABLE_EPPE := true
