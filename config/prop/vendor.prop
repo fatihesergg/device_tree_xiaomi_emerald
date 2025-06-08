@@ -305,6 +305,10 @@ ro.vendor.mtk_ovl_bringup=0
 ro.vendor.jpeg_decode_sw_opt=1
 ro.vendor.smvr.p2batch.vga=8
 ro.vendor.smvr.p2batch.hd=4
+
+# eis test
+persist.vendor.camera.eis.enable=1
+persist.camera.eis.enable=1
 ro.vendor.mtk_slow_motion_support=1
 ro.vendor.mtk_prefer_64bit_proc=0
 ro.vendor.mtk_mvpu_security_support=0
