@@ -219,11 +219,11 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_VNDK_VERSION := current
 
 # VINTF
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml \
-hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/config/vintf/manifest.xml
-DEVICE_MATRIX_FILE += $(DEVICE_PATH)/config/vintf/compatibility_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+      hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml \
+      hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml \
+      vendor/lineage/config/device_framework_matrix.xml
 
 # Wi-Fi
 WPA_SUPPLICANT_VERSION := VER_0_8_X
